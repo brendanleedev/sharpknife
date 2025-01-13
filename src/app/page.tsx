@@ -23,11 +23,15 @@ export default function Home() {
       <div>
         <Header></Header>
       </div>
-      <div className="text-center">
-        <div className="text-5xl m-5">Next Gen Nutrition Tracking</div>
-        <div className="text-3xl m-5">
-          Make your next dietary decisions as sharp as a knife.
+
+      <div className="snap-y snap-mandatory">
+        <div className="text-center justify-center">
+          <div className="text-4xl m-5 mt-20">Next Gen Nutrition Tracking</div>
+          <div className="text-3xl m-5">
+            Make your next dietary decisions as <em>sharp</em> as a knife.
+          </div>
         </div>
+        <div>hello</div>
       </div>
     </div>
   );
