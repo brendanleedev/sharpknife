@@ -15,7 +15,7 @@
 //   );
 // }
 
-import Header from "@/components/Header";
+import Header from "@/components/header";
 
 export default function Home() {
   return (
@@ -24,8 +24,10 @@ export default function Home() {
         <Header></Header>
       </div>
       <div className="text-center">
-        <div className="text-5xl m-5">Sharp Knife</div>
-        <div className="text-3xl m-5">Make Sharp Nutrition Decisions</div>
+        <div className="text-5xl m-5">Next Gen Nutrition Tracking</div>
+        <div className="text-3xl m-5">
+          Make your next dietary decisions as sharp as a knife.
+        </div>
       </div>
     </div>
   );
